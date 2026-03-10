@@ -15,7 +15,13 @@ The goal is to demonstrate an end-to-end analytical workflow combining **Python 
 
 ---
 
-# Dataset
+## Dashboard Overview
+
+![Dashboard Overview](visuals/dashboard_overview.png)
+
+---
+
+## Dataset
 
 Dataset: **Online Retail 2010–2011**
 
@@ -228,6 +234,8 @@ powerbi/
   retail_analysis.pbix
 
 visuals/
+retail_analysis.pdf
+dashboard_overview.png
 
 README.md
 ```
@@ -246,4 +254,5 @@ Possible extensions of the analysis include:
 * deeper segmentation of customer groups
 * predictive modeling for customer lifetime value
 * marketing strategy analysis based on customer tiers
+
 
