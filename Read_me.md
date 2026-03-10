@@ -1,9 +1,3 @@
-Good instinct. Writing the README **while the work is fresh** is exactly the right move. Below is a **complete README draft** based on everything you’ve done so far. You can copy this into a `README.md` file tomorrow when we create the repository.
-
-I’m writing it at **portfolio quality**, but still simple and clear.
-
----
-
 # Revenue Drivers & Customer Behavior Analysis
 
 ## Project Overview
@@ -213,6 +207,9 @@ This suggests many are **one-time or inactive customers**.
 # Project Structure
 
 ```
+## Repository Structure
+
+```
 ecommerce-revenue-analysis/
 
 data/
@@ -220,15 +217,23 @@ data/
   cleaned/
 
 notebooks/
-  data_cleaning.ipynb
+  01_data_cleaning.ipynb
+  02_analysis.ipynb
 
 sql/
+  schema.sql
   analysis/
 
 powerbi/
   retail_analysis.pbix
 
+visuals/
+
 README.md
+```
+
+The repository is organized to separate raw data, cleaned datasets, analytical notebooks, SQL queries, and visualization assets.
+
 ```
 
 ---
