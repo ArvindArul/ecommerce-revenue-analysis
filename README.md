@@ -40,7 +40,7 @@ Each row represents a **transaction line item**, including:
 
 ---
 
-# Data Cleaning (Python / Pandas)
+## Data Cleaning (Python / Pandas)
 
 Initial cleaning and feature engineering were performed in Python using Pandas.
 
@@ -64,7 +64,7 @@ data/cleaned/online_retail_cleaned.csv
 
 ---
 
-# SQL Data Model
+## SQL Data Model
 
 The cleaned dataset was imported into SQL Server for structured analysis.
 
@@ -124,7 +124,7 @@ This segmentation allows analysis of how different customer groups contribute to
 
 ---
 
-# Power BI Data Model
+## Power BI Data Model
 
 The Power BI model follows a **star schema structure**.
 
@@ -148,7 +148,7 @@ A dedicated **Date dimension** was created to support time-series analysis and P
 
 ---
 
-# Key Analysis Performed
+## Key Analysis Performed
 
 The analysis included several SQL-based investigations:
 
@@ -170,7 +170,7 @@ RFM metrics were compared across tiers to understand how purchasing behavior dif
 
 ---
 
-# Key Insights
+## Key Insights
 
 ### 1. Revenue is highly concentrated among Tier A customers
 
@@ -202,7 +202,7 @@ This suggests many are **one-time or inactive customers**.
 
 ---
 
-# Tools Used
+## Tools Used
 
 * **Python (Pandas)** – data cleaning and feature engineering
 * **SQL Server** – analytical queries and data modeling
@@ -210,43 +210,46 @@ This suggests many are **one-time or inactive customers**.
 
 ---
 
-# Project Structure
+## Project Structure
 
-```
+
 ## Repository Structure
 
 ```
+
 ecommerce-revenue-analysis/
 
 data/
-  raw/
-  cleaned/
+raw/
+online_retail.csv
+cleaned/
+online_retail_cleaned.csv
+customer_level_rfm.csv
 
 notebooks/
-  01_data_cleaning.ipynb
-  02_analysis.ipynb
+01_data_cleaning.ipynb
+02_analysis.ipynb
 
 sql/
-  schema.sql
-  analysis/
+schema.sql
+analysis/
 
 powerbi/
-  retail_analysis.pbix
+retail_analysis.pbix
 
 visuals/
-retail_analysis.pdf
 dashboard_overview.png
+retail_analysis.pdf
 
 README.md
+
 ```
 
 The repository is organized to separate raw data, cleaned datasets, analytical notebooks, SQL queries, and visualization assets.
 
-```
-
 ---
 
-# Potential Next Steps
+## Potential Next Steps
 
 Possible extensions of the analysis include:
 
