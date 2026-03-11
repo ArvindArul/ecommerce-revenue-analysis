@@ -218,31 +218,24 @@ This suggests many are **one-time or inactive customers**.
 ```
 
 ecommerce-revenue-analysis/
-
-data/
-raw/
-online_retail.csv
-cleaned/
-online_retail_cleaned.csv
-customer_level_rfm.csv
-
-notebooks/
-01_data_cleaning.ipynb
-02_analysis.ipynb
-
-sql/
-schema.sql
-analysis/
-
-powerbi/
-retail_analysis.pbix
-
-visuals/
-dashboard_overview.png
-retail_analysis.pdf
-
-README.md
-
+    data/
+        raw/
+            online_retail.csv
+        cleaned/
+            online_retail_cleaned.csv
+            customer_level_rfm.csv
+    notebooks/
+        01_data_cleaning.ipynb
+        02_analysis.ipynb
+    sql/
+        schema.sql
+        analysis/
+    powerbi/
+        retail_analysis.pbix
+    visuals/
+        dashboard_overview.png
+        retail_analysis.pdf
+    README.md
 ```
 
 The repository is organized to separate raw data, cleaned datasets, analytical notebooks, SQL queries, and visualization assets.
