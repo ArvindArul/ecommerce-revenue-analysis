@@ -221,20 +221,26 @@ ecommerce-revenue-analysis/
     data/
         raw/
             online_retail.csv
+
         cleaned/
             online_retail_cleaned.csv
             customer_level_rfm.csv
+
     notebooks/
         01_data_cleaning.ipynb
         02_analysis.ipynb
+
     sql/
         schema.sql
         analysis/
+
     powerbi/
         retail_analysis.pbix
+
     visuals/
         dashboard_overview.png
         retail_analysis.pdf
+
     README.md
 ```
 
